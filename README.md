@@ -50,6 +50,7 @@ Handled using **`FileHandler.java`**:
 - Read JSON-like content from disk  
 - Auto-create required files if missing  
 
+
 ### Example storage format:
 ```json
 {
@@ -57,4 +58,27 @@ Handled using **`FileHandler.java`**:
   "name": "Ayush Goel",
   "courses": ["C101", "C102"]
 }
+```
+## 📁 Project Structure
+
+```
+StudentCourseRegistration/
+ ├── src/
+ │    ├── Main.java
+ │    ├── models/
+ │    │     ├── Course.java
+ │    │     └── Student.java
+ │    ├── services/
+ │    │     ├── AuthService.java
+ │    │     ├── CourseService.java
+ │    │     └── StudentService.java
+ │    └── utils/
+ │          └── FileHandler.java
+ └── data/
+      ├── courses.txt
+      └── students.txt
+```
+
+
+
 
